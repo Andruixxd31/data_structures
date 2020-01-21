@@ -1,0 +1,4 @@
+#ignore jar files
+*.jar
+
+/.idea
