@@ -1,0 +1,7 @@
+Unstable sort algorithms 
+	The relative order of duplicate items are not preserved 
+
+Stable sort algorithms 
+	The relative order of duplicate items are preserved 
+
+stable is prefered, when sorting objects it will be important
