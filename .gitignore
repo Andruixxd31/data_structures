@@ -5,3 +5,9 @@
 
 #classes
 *.class
+
+#test files 
+*.txt
+*.text
+*.rft
+
