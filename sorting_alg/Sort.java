@@ -1,4 +1,5 @@
 //Unstable sorting algorithm
+//This is a selection sort algorithm
 public class Sort {
     
     public static void main(String[] args) {
