@@ -1,4 +1,4 @@
-public class Factorial{
+public class Factorial {
 
     public static void main(String[] args) {
         int n = 3;
@@ -6,8 +6,8 @@ public class Factorial{
         System.out.println(res);
     }
 
-    public static int factorial(int num){
-        if (num == 0){
+    public static int factorial(int num) {
+        if (num == 0) {
             return 1;
         }
         return num * factorial(num - 1);
