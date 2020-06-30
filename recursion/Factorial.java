@@ -1,7 +1,7 @@
 public class Factorial {
 
     public static void main(String[] args) {
-        int n = 3;
+        int n = 4;
         int res = factorial(n);
         System.out.println(res);
     }

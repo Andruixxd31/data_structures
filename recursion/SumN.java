@@ -6,7 +6,7 @@ public class SumN {
         System.out.println(res);
     }
 
-    // tail rescursive function
+    // * tail rescursive function
     public static int sum(int x, int y) {
         if (x == 0) {
             return y;
