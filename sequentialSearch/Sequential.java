@@ -1,3 +1,6 @@
+//Andres Diaz de Leon - A01620020 
+// 30/06/20
+
 public class Sequential<T> {
 
     public static void main(String[] args) {
