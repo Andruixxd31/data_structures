@@ -114,4 +114,6 @@ public class RecursionSesion3 {
             return arr[i];
         return arr[i] + sumaArreglo(arr, i - 1);
     }
+
+    // imprimir del 5 a 1 y regresar del 2 al 5
 }
