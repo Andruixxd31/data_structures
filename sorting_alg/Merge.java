@@ -1,7 +1,7 @@
 public class Merge {
 
     public static void main(String[] args) {
-        int intArray[] = {4,2,6,3,7,9,1,0,5,8};
+        int intArray[] = { 4, 2, 6, 3, 7, 9, 1, 0, 5, 8 };
         mergeSort(intArray, 0, intArray.length);
 
         for (int i = 0; i < intArray.length; i++) {
@@ -9,11 +9,10 @@ public class Merge {
         }
     }
 
-    public static void mergeSort(int[] input, int start, int end) {
+    private static void mergeSort(int[] input, int start, int end) {
 
-        if (end - start < 2) {
+        if (end - start <= 1) // If array is only of one element the value will be returned
             return;
-        }
 
         int mid = (start + end) / 2;
         mergeSort(input, start, mid);
@@ -22,7 +21,7 @@ public class Merge {
     }
 
     // { 20, 35, -15, 7, 55, 1, -22 }
-    public static void merge(int[] input, int start, int mid, int end) {
+    private static void merge(int[] input, int start, int mid, int end) {
 
         if (input[mid - 1] <= input[mid]) {
             return;

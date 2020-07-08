@@ -47,7 +47,7 @@ public class Quick {
     }
 
     public static void main(String[] args) {
-        int[] array = { 20, 37, -15, 7, 55, 1, -22 };
+        int[] array = {5,7,77,3,2,71,4,14,1,11};
 
         quickSort(array, 0, array.length);
 

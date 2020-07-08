@@ -27,7 +27,7 @@ public class DoublyLinkedList<T> implements Iterable<T> {
             Node<T> next = trav.next;
             trav.prev = trav.next = null; // deallocates them by setting them to null
             trav.data = null;
-            trav = next; // when the trav is in the HEAD ne next element is null
+            trav = next; // when the trav is in the HEAD the next element is null
         }
         head = tail = trav = null; // reset head an tail
         size = 0;
