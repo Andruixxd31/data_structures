@@ -1,4 +1,4 @@
-public class DoublyLinkedList<T> implements Iterable<T> {
+ public class DoublyLinkedList<T> implements Iterable<T> {
     private int size = 0;
     private Node<T> head = null; // linked list is empty at the start
     private Node<T> tail = null;
