@@ -154,7 +154,7 @@ public class SLinkedList<E extends Comparable<E>> {
 			NodeG<E> tmp = this.first;
 			for (int i = 0; i < pos; i++)
 				tmp = tmp.getNext();
-			tmp.setNext(tmp.getNext());
+			tmp.setNext(tmp.getNext().getNext());
 			this.size--;
 			return tmp.getDato();
 		}

@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Huffman",
+            "request": "launch",
+            "mainClass": "Huffman",
+            "projectName": "data_structures_abf77a34"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MyHashTable",
+            "request": "launch",
+            "mainClass": "MyHashTable",
+            "projectName": "data_structures_abf77a34"
+        },
+        {
+            "type": "java",
             "name": "Debug (Launch) - Current File",
             "request": "launch",
             "mainClass": "${file}"

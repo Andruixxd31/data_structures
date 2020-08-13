@@ -16,7 +16,7 @@ public class DynamicArray<T> implements Iterable<T> {
         this(16);
     }
 
-    public DynamicArray(int capacity) { // aray initialize with a fiven capacity
+    public DynamicArray(int capacity) { // aray initialize with a given capacity
         if (capacity < 0)
             throw new IllegalArgumentException("Illegal Capacity: " + capacity);
         this.capacity = capacity;

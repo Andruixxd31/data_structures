@@ -7,7 +7,7 @@ public class QueueLE {
     }
 
     public void enqueue(E dato) {
-        this.lista = new SLinkedList<>();
+        this.lista.addLast();
     }
 
     public void dequeue(E dato) {
